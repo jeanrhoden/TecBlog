@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600&family=Josefin+Slab:ital,wght@0,400;1,300;1,400&family=Mulish:ital,wght@0,300;0,400;1,200;1,300&display=swap');
+
+/*Limpar formatacoes padrao */
+* {
+    margin: 0;
+    padding: 0;
+}
+/* primeira coisa a fazer para definir uma cor de fundo tamanho da font e familia */
+body{
+    font-size: 1em;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    background: #f3ebeb;
+}
+
+/*layout */
+
+#area-cabecalho{
+    background: #f7b600;
+    padding: 25px;
+    text-align: center;
+}
+
+#area-principal{
+     width: 920px;
+     margin: 0 auto; /*ao colocar margin auto o conteudo ficara centralizado sempre em realação a margem lateral */
+     padding: 15px;
+}
+
+#area-postagens{
+    width: 650px;
+    float: left;
+}
+
+#area-lateral{
+    width: 240px;
+    float: right;
+}
+
+.postagens{
+    padding: 20px;
+    margin-bottom: 20px;
+    background: white;
+}
+
+#area-logo{
+    padding: 15px;
+}
+
+.conteudo-lateral{
+    background: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.postagem-lateral{
+    font-size: 0.8em;
+    padding: 5px;
+}
+
+/*formatacao do menu*/
+
+ a:link, a:visited{
+    color: #f7b600; 
+}
+
+ a:hover {
+    text-decoration: underline;
+}
+
+#area-cabecalho a:link, #area-cabecalho a:visited{
+    color: #ffff;
+    padding: 8px 12px;
+}
+
+#area-cabecalho a:hover {
+    color: #f7b600;
+    background: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+#area-menu{
+    padding: 10px;
+}
+
+#rodape{
+    clear: both;
+    text-align: center;
+    background: rgb(128, 119, 119);
+    padding:15px;
+}
+/*formatacoes em geral*/
+
+
+h1{
+    color: #4e4e4e;
+    font-size: 2.5em;
+}
+
+h2{
+    color: #f7b600;
+
+}
+
+h3{
+    color: #565656;
+    background: #ccc;
+    padding: 5px;
+}
+
+.data-postagem{
+    font-size: 0.7em;
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;  /*pois um span ele tem comportamento inline e para aplicar as configurações precisaria ser block */
+
+}
+
+
+.branco{
+    color: white;
+}
